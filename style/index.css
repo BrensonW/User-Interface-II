@@ -45,7 +45,10 @@ h2{
     padding:3%;
 }
 p{
-  
+  font-size:200%;
+}
+.Intro{
+    font-size:100%;
 }
 h1{
     
@@ -104,20 +107,24 @@ display:flex;
 margin-left:5%;
 }
 
-/*.container{
-
-}*/
+.container{
+display:flex;
+}
+.container2{
+    display:flex;
+}
 .images1{
     
     padding:1%;
    
 }
+
 .images2{
     
     padding:1%;
 }
 .text1{
-    font-size:200%;
+    font-size:170%;
     text-align:center;
 }
 
