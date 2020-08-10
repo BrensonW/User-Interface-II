@@ -140,7 +140,15 @@ footer{
     background-color:mediumaquamarine
 }
 @media(max-width:800px){
+   body{
+       background-color:tan;
+   }
     .top{
         background-color:purple;
     }
+        h1{
+            color:white;
+        }
+    }
+    
 }
