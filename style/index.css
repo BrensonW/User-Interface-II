@@ -25,17 +25,7 @@ header{
     background-color:coral;
 
 }
-@media (max-width: 800px) {
-.top{
-    background:blue;
-}
-}
 
- @media (max-width: 500px) {
-     .top{
-      background:purple;   
-     }
- }
 .image{
     
     display:flex;
