@@ -68,7 +68,7 @@ nav{
 .one{
     text-decoration:none;
     display:inline-block;
-    background-color:green;
+    background-color:aqua;
     padding:0 1% 0 1%;
     text-align:center;
     color:black;
@@ -78,7 +78,7 @@ nav{
 .two{
     text-decoration:none;
     display:inline-block;
-    background-color:green;
+    background-color:aqua;
     padding:0 1% 0 1%;
     text-align:center;
     color:black;
@@ -86,7 +86,7 @@ nav{
 .three{
     text-decoration:none;
     display:inline-block;
-    background-color:green;
+    background-color:aqua;
     padding:0 1% 0 1%;
     text-align:center;
     color:black;
@@ -94,7 +94,7 @@ nav{
 .four{
     text-decoration:none;
     display:inline-block;
-    background-color:green;
+    background-color:aqua;
     padding:0 1% 0 1%;
     text-align:center;
     color:black;
@@ -138,4 +138,9 @@ button{
 }
 footer{
     background-color:mediumaquamarine
+}
+@media(max-width:800px){
+    .top{
+        background-color:purple;
+    }
 }
