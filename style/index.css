@@ -23,9 +23,9 @@ vertical-align: baseline;
 
 header{
     background-color:coral;
+
 }
 
- 
 .image{
     
     display:flex;
@@ -68,7 +68,7 @@ nav{
 .one{
     text-decoration:none;
     display:inline-block;
-    background-color:green;
+    background-color:aqua;
     padding:0 1% 0 1%;
     text-align:center;
     color:black;
@@ -78,7 +78,7 @@ nav{
 .two{
     text-decoration:none;
     display:inline-block;
-    background-color:green;
+    background-color:aqua;
     padding:0 1% 0 1%;
     text-align:center;
     color:black;
@@ -86,7 +86,7 @@ nav{
 .three{
     text-decoration:none;
     display:inline-block;
-    background-color:green;
+    background-color:aqua;
     padding:0 1% 0 1%;
     text-align:center;
     color:black;
@@ -94,7 +94,7 @@ nav{
 .four{
     text-decoration:none;
     display:inline-block;
-    background-color:green;
+    background-color:aqua;
     padding:0 1% 0 1%;
     text-align:center;
     color:black;
@@ -138,4 +138,87 @@ button{
 }
 footer{
     background-color:mediumaquamarine
+}
+@media(max-width:800px){
+   body{
+       background-color:tan;
+   }
+    .top{
+        background-color:purple;
+    }
+     nav a{
+         margin-left:23%;
+        width:50%;
+        
+    }
+    
+ .text1{
+     color:white;
+     background-color:purple;
+ }
+    .opener-image{
+        flex-wrap:wrap;
+        width:250%;
+        margin-left:23%;
+        
+    }
+     .main_text{ 
+        
+         margin-bottom:2%;
+         margin-left:6%; 
+         flex-wrap:wrap;
+     }
+     h2{
+         margin-left:10%;
+     }
+     .button1{
+         margin-left:30%;
+     }
+     
+     .main_text .Intro{
+         text-align:center;
+     }
+         h1{
+            color:white;
+            margin-left:30%;
+        }
+        
+    .container {
+        flex-wrap:wrap;
+        width:70%;
+        margin-left:25%;
+    }    
+    .container2{
+        flex-wrap:wrap;
+        width:70%;
+        margin-left:25%;
+    }
+    
+}
+@media(max-width: 500px){
+    h1{
+      margin-left:15%;  
+    }
+    .opener-image{
+      margin-left:7%;
+    }
+    .main_text{
+        margin-left:10%;
+    }
+    
+    .container {
+       flex-wrap: wrap;
+        width:100%;
+        margin-left:7%;
+        
+        
+    }
+    .container2 {
+        flex-wrap: wrap;
+         width:100%;
+         margin-left:7%;
+         
+         
+     }
+
 }
